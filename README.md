@@ -3,7 +3,7 @@ A simple Chip-8 interpreter for Windows, written in C# and using WPF for the UI 
 
 This is a hobby project I developed to learn about emulation development. It is not intended as a perfect Chip-8 interpreter, and some features haven't been implemented yet. It *should* emulate most of the standard Chip-8 roms somewhat accurately. The UI is very bare-bones and is mainly there for debug purposes, but it should track the program counter correctly.
 
-Input keys are 1-4, Q-R, A-F and Z-V. The clock speed of the CPU has been set to 500hz. 
+Input keys are 1-4, Q-R, A-F and Z-V. The clock speed of the CPU has been set to 500hz. For now, you need to load ROMs manually on the MainWindow code-behind file.
 
 The interpreter has a debug flag in the code to step through the CPU cycles manually. Once set to true, you can step through the code by pressing O on your keyboard.
 
